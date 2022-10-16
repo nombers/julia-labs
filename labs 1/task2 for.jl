@@ -7,8 +7,8 @@ for i=1:k
     global t = f
     global f = t + f0
     global f0 = t
-    if f >= k
+    if f > k
         break
     end
 end
-println("Первое число фибоначчи больше k ", f)
+println("Первое число фибоначчи больше k: ", f)

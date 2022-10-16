@@ -8,4 +8,4 @@ while f <= k
     global f = t + f0
     global f0 = t
 end
-println("Первое число фибоначчи больше k ", f)
+println("Первое число фибоначчи больше k: ", f)
