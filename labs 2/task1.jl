@@ -1,7 +1,9 @@
 using Random
-a = rand(1:100, 30)
-b = rand(1:100, 30)
+a = rand(1:50, 30)
+b = rand(1:50, 30)
 max = 0
+println("Первая последовательность: ", a)
+println("Вторая последовательность: ", b)
 for i in b
     if !(i in a)
         global max
@@ -10,4 +12,4 @@ for i in b
         end
     end
 end
-println(max)
+println("Максимальный элемент воторой последовательности, который не входит в первую: ", max)
