@@ -1,4 +1,3 @@
-using Random
 a = rand(1:50, 30)
 b = rand(1:50, 30)
 max = 0
