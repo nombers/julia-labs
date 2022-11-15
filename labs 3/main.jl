@@ -1,7 +1,7 @@
 module MyModul
 
-include("modul.jl")
 using Test
+include("modul.jl")
 using .replacing_elements_in_the_matrix
 
 print("Введите порядок матрицы: ")
