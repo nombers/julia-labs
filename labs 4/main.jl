@@ -9,4 +9,3 @@ write_file(arr)
 rewrite()
 
 end
-end
