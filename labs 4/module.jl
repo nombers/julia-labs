@@ -24,19 +24,19 @@ function write_file(arr)
 end
 
 function read_file()
-    open("labs 4\\F.txt", "r") do old_file
+    open("labs 4\\F.txt", "r") do file
         global text
-        text = readlines(old_file)
+        text = readlines(file)
     end    
     return text
 end
 
 function rewrite()
     text = read_file()
-    open("labs 4\\G.txt", "w") do new_file
+    open("labs 4\\G.txt", "w") do file
         for i in 1:length(text)
             if i % 2 == 0
-                write(new_file, text[i], "\n")
+                write(file, text[i], "\n")
             end
         end
     end
